@@ -1,8 +1,3 @@
-resource "azurerm_virtual_machine" "denied" {
-  os_profile {
-    admin_password = "test"
-  }
-}
 
 resource "azurerm_virtual_machine" "denied_2" {
   os_profile {
